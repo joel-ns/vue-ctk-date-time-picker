@@ -1,5 +1,5 @@
 {
-  "name": "vue-joel-ns-ctk-date-time-picker",
+  "name": "@nyholmsolutions/vue-ctk-date-time-picker",
   "version": "2.4.1",
   "description": "A vue component for select date & time (by Chronotruck)",
   "author": "Joel Hietanen <joel.hietanen@nyholmsolutions.fi>",
@@ -90,5 +90,8 @@
     "type": "git",
     "url": "git+https://github.com/joel-ns/vue-ctk-date-time-picker.git"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  }
 }
